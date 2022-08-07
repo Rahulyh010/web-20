@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid 1</title>
+</head>
+    <body>
+    
+        
+        <style>
+            
+            #gridy{
+                width:50%;
+                display:grid;
+                grid-template-columns:repeat(4,1fr);
+                grid-template-rows:repeat(3,100px);
+                border:0px solid black;
+                padding:20px;
+                margin:auto;
+                gap:20px;
+                margin-top:150px;
+            }
+            #gridy>div{
+                border:0px solid black;
+                border-radius: 5px;
+                align-items:center;
+                background-color:rgb(85, 84, 84);
+                color:aliceblue;
+                text-transform: uppercase;
+                justify-items: center;
+                font-size:30px;
+            padding-left:30px;
+            padding-top:20px;
+            }
+            #a{
+                grid-area:1/span 2;
+                
+            }
+            #b{
+                grid-area:1/span 2;
+            }
+            #d{
+                grid-column:2/5;
+            }
+            #e{
+                grid-column:1/5;
+            }
+        </style>
+
+        <div id="gridy">
+         <div id="a">a</div>
+         <div id="b">b</div>
+         <div id="c">c</div>
+         <div id="d">d</div>
+         <div id="e">e</div>
+        
+        </div>
+    </body>
+</html>

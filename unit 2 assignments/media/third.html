@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>third layout</title>
+    </head>
+    <body>
+        <style>
+            #box{
+                width:80%;
+                margin:auto;
+                display:grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows:auto;
+                padding:20px;
+                gap:20px;
+                border:0px solid black;
+                margin-top:50px;
+            }
+            #box>div{
+                border:0px solid black;
+                border-radius:10px;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            }
+            #box>div>div{
+                height:40%;
+                display:flex;
+                width:100%;
+                justify-content: space-between;
+                border:0px solid black;
+                align-items:center;
+                margin-bottom:30px;
+               
+
+            }
+            #box>div>div>div{
+               
+                width:40%;
+                height:100%;
+                align-items:center;
+                border:0px solid black;
+                text-align: end;
+            }
+            h3{
+                color:orangered;
+                }
+            p{
+                color:gray;
+            }
+            @media all and (min-width:480px) and (max-width:781px){
+                #box{
+                    grid-template-columns: repeat(2,1fr);
+                    grid-template-rows: auto;
+
+                }
+            }
+                @media all and (min-width:200px) and (max-width:480px){
+                    #box{
+                        grid-template-columns:repeat(1,1fr);
+                        grid-template-rows: auto;
+                    }
+                }
+            
+            
+        </style>
+        <div id="box">
+            <div>
+                <div>
+                    <div><h2>Americano</h2></div>
+                    <div><h3>$49</h3></div>
+                    </div>
+                    <p>The use of internte is becoming nowdays more and more so plx less use of phone use brains</p>
+            </div>
+          
+        <div><div>
+            <div><h2>Americano</h2></div>
+            <div><h3>$49</h3></div>
+            </div>
+            <p>The use of internte is becoming nowdays more and more so plx less use of phone use brains</p></div>
+        <div><div>
+            <div><h2>Americano</h2></div>
+            <div><h3>$49</h3></div>
+            </div>
+            <p>The use of internte is becoming nowdays more and more so plx less use of phone use brains</p></div>
+        <div><div>
+            <div><h2>Americano</h2></div>
+            <div><h3>$49</h3></div>
+            </div>
+            <p>The use of internte is becoming nowdays more and more so plx less use of phone use brains</p></div>
+        <div><div>
+            <div><h2>Americano</h2></div>
+            <div><h3>$49</h3></div>
+            </div>
+            <p>The use of internte is becoming nowdays more and more so plx less use of phone use brains</p></div>
+        <div><div>
+            <div><h2>Americano</h2></div>
+            <div><h3>$49</h3></div>
+            </div>
+            <p>The use of internte is becoming nowdays more and more so plx less use of phone use brains</p></div>
+            <div> <div>
+                <div><h2>Americano</h2></div>
+                <div><h3>$49</h3></div>
+                </div>
+                <p>The use of internte is becoming nowdays more and more so plx less use of phone use brains</p></div>
+            <div> <div>
+                <div><h2>Americano</h2></div>
+                <div><h3>$49</h3></div>
+                </div>
+                <p>The use of internte is becoming nowdays more and more so plx less use of phone use brains</p></div>
+            <div> <div>
+                <div><h2>Americano</h2></div>
+                <div><h3>$49</h3></div>
+                </div>
+                <p>The use of internte is becoming nowdays more and more so plx less use of phone use brains</p></div>
+        </div>
+    </body>
